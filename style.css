@@ -1,0 +1,186 @@
+/* CSS Styling for the page */
+.stButton > button {
+    background-color: #E6E6FA;
+    color: #EE4B2B; 
+    border: none; 
+    padding: 10px 100px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.stButton > button:hover {
+    background-color: #D8BFD8;
+    color: #EE4B2B;
+}
+
+.stTitle {
+    font-size: 25px;
+    color: #EE4B2B;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.stSidebar .stSelectbox, .stSidebar .stRadio, .stSidebar .stSlider {
+    background-color: #F0F0F0;
+}
+
+.stSelectbox, .stSlider, .stRadio {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.stDataFrame {
+    background-color: #FAF9F6;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+h4 {
+    text-align: center;
+    color: #FF6347;
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.stSubheader {
+    font-size: 20px;
+    font-weight: bold;
+    color: #EE4B2B;
+}
+
+.stTextInput, .stTextArea {
+    border: 1px solid #DDDDDD;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.stApp {
+    background-color: #F9F9F9;
+}
+
+/* General Page Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Title Styles */
+.stApp h1 {
+    color: #D32F2F;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Sidebar Styles */
+.css-1d391kg {
+    background-color: #F44336;
+    color: white;
+    padding: 20px;
+}
+
+/* Custom button styles */
+.stButton>button {
+    background-color: #D32F2F;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.stButton>button:hover {
+    background-color: #C2185B;
+}
+
+/* Selectbox Styles */
+.stSelectbox select {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    color: #333;
+    border: 1px solid #CCCCCC;
+}
+
+/* Slider Styles */
+.stSlider input {
+    background-color: #D32F2F;
+}
+
+/* DataFrame Table Styles */
+.stDataFrame {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.stDataFrame th, .stDataFrame td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.stDataFrame th {
+    background-color: #F44336;
+    color: white;
+}
+
+.stDataFrame tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Image and QR Code Styles */
+.stImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* QR Code and Play Store Icon Flex Layout */
+.qr-container {
+    display: flex;
+    justify-content: space-evenly; /* Equal spacing between items */
+    align-items: center;
+    gap: 20px; /* Adjusted to reduce large space */
+    margin-top: 50px;
+}
+
+.qr-container img {
+    width: 200px;
+    height: auto;
+}
+
+/* Red bus Icon Styles */
+.red-bus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.red-bus img {
+    width: 200px;
+    height: auto;
+}
+
+/* Play Store Icon Styles */
+.play-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.play-store img {
+    width: 250px;
+    height: auto;
+}
