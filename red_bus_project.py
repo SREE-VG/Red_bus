@@ -263,8 +263,8 @@ route_data= normal_route_data[normal_route_data['route_no'].isin(unique_bus_no)]
 
 
 # write the route_data and bus_data in .csv file for reference
-route_data.to_csv('route_data10.csv',index=False,mode='w')
-bus_data.to_csv('bus_data10.csv',index=False,mode='w')
+route_data.to_csv('/csv/route_data.csv',index=False,mode='w')
+bus_data.to_csv('/csv/bus_data.csv',index=False,mode='w')
 
 
 #check both bus_no from bus_data and route_no from route_data is same (________________Testing_________________)
