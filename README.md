@@ -32,14 +32,6 @@ The "Redbus Data Scraping and Filtering with Streamlit Application" project seek
 ## Code Flow
 ![image](https://github.com/user-attachments/assets/3110b926-2f9b-4edd-a674-0cb32f4216f2)
 
-### Environment Setup
-1. Create a folder named `red_bus_project`, then open Visual Studio and open the folder.
-2. Create a new file called `red_bus_project.py` (or manually create it through your editor).
-3. If using VS Code, press `Ctrl + ~` or go to Terminal > New Terminal.
-4. In the terminal, create a virtual environment within the project folder:
-   ```bash
-   python -m venv venv
-
 ## Environment Setup
 1. Create a folder named `red_bus_project`, then open Visual Studio and open the folder. 
 2. Create a new file called `red_bus_project.py` (or manually create it through your editor).
@@ -121,7 +113,7 @@ The "Redbus Data Scraping and Filtering with Streamlit Application" project seek
    - Create functions to connect to the MySQL database using `pymysql.connect()`.
    - Fetch data (`state names`, `route names`, `bus details`) based on user input.
 4. **Sidebar Navigation**:
-   - Create a sidebar with options like **"Home"** and **"Search Bus"** using `st.radio()` or `st.selectbox()`.
+   - Create a sidebar with options like **"Home"** and **"Search Bus"** using `st.button()`.
 5. **Home Page**:
    - Display platform info and a QR code linking to the mobile app for download.
 6. **Search Bus Page**:
